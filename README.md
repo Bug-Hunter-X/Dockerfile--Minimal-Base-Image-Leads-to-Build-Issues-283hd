@@ -1,0 +1,1 @@
+This repository demonstrates a common Dockerfile error: using an overly minimal base image. The original Dockerfile uses `alpine:latest`, which is small but lacks many essential libraries, causing problems when running applications with dependencies.  The solution shows how to use a more appropriate base image.
